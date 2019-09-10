@@ -366,8 +366,8 @@ PRODUCT_PACKAGES += \
     telephony-ext \
     qti-telephony-common
 
-PRODUCT_BOOT_JARS += \
-    telephony-ext
+#PRODUCT_BOOT_JARS += \
+#    telephony-ext
 
 # Sensors
 PRODUCT_COPY_FILES += \
