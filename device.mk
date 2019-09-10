@@ -320,6 +320,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-oem.xml:system/etc/permissions/privapp-permissions-oem.xml \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
 
+# Enable dexpreopt to speed boot time from BoardConfig.mk
+PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.qcom.ril.sh \
